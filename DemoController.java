@@ -13,7 +13,7 @@ public class DemoController {
 	    public String demo()
 	    {
 	        // The html file name is helloWorldPage.html.
- 	    	System.out.println("Hi");
+ 	    	System.out.println("Hi updated...");
 	        return "helloWorldPage";
 	    }
 	
