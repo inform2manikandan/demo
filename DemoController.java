@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class DemoController {
 
-	
+
+
  	    @RequestMapping(value="/demo", method=RequestMethod.GET)
 	    public String demo()
 	    {
