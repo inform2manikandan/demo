@@ -11,7 +11,7 @@ public class DemoController {
 	    public String demo()
 	    {
 	        // The html file name is helloWorldPage.html.
- 	    	System.out.println("Hi updated 2nd time:...");
+ 	    	System.out.println("Hi updated 3rd time:...");
 	        return "helloWorldPage";
 	    }
 	
