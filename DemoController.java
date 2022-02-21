@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class DemoController {
 
-	
+
  	    @RequestMapping(value="/demo", method=RequestMethod.GET)
 	    public String demo()
 	    {
 	        // The html file name is helloWorldPage.html.
- 	    	System.out.println("Hi updated 2nd time:...");
+ 	    	System.out.println("Hi updated 4th time:...");
 	        return "helloWorldPage";
 	    }
 	
