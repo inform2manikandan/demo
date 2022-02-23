@@ -10,6 +10,7 @@ public class DemoController {
  	    @RequestMapping(value="/demo", method=RequestMethod.GET)
 	    public String demo()
 	    {
+
 	        // The html file name is helloWorldPage.html.
  	    	System.out.println("Hi updated 7th time:...");
 	        return "helloWorldPage";
